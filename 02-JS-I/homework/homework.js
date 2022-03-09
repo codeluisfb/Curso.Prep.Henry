@@ -125,38 +125,47 @@ function esImpar(num) {
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
- var elevadoAlCuadrado = Math.pow(3.2);
+ elevadoAlCuadrado = Math.pow(num,2);
+ return elevadoAlCuadrado;
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  elevadoAlCubo = Math.pow(num,3);
+ return elevadoAlCubo;
   
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  var elevacionExp = Math.pow(num, exponent);
+  return elevacionExp;
   
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  var redondeaNum = Math.round(num);
+  return redondeaNum;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
+  var RedondearUp = Math.ceil(num);
+  return RedondearUp;
   
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var NumRamdon = Math.random();
+  return NumRamdon;
 }
 
 function esPositivo(numero) {
@@ -164,13 +173,19 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
-}
+ 
+    
+
+  }
+
+
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+
 }
 
 function combinarNombres(nombre, apellido) {
